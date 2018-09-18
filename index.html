@@ -1,471 +1,629 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="ru">
 <head>
-  <meta charset="UTF-8">
-  <title>Шаблоны</title>
-  <link type="text/css" rel="stylesheet" href="font/fonts.css">     
-  <link type="text/css" rel="stylesheet" href="css/global.css">    
-  <script type="text/javascript" src="js/libs/modernizr-2.6.1.min.js"></script>
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script type="text/javascript" src="http://code.jquery.com/ui/1.9.1/jquery-ui.js"></script>
-  <script src="jquery.maskedinput.min.js"></script>
-  <script type="text/javascript" src="main.js"></script>
-  <script src="js/slides.js"></script>
-  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
-  <link rel="stylesheet" href="js/jquery.countdown.css" />
-  <link rel="shortcut icon" href="/favicon.png" />
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name=viewport content="width=device-width,initial-scale=1">
+<base href="http://wheeleco.ru/" />
+<title>Главная - wheeleco.ru</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="assets/template/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/template/css/styles.css" rel="stylesheet"/>
+<link href="assets/template/css/media.css" rel="stylesheet"/>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+<meta property="og:image" content="">
+<meta property="og:title" content="Главная">
+<meta property="og:description" content="wheeleco.ru">
 </head>
-<body>  
-    <!-- /////////////////////////// Поп-ап \\\\\\\\\\\\\\\\\\\\\\\\ -->
-<div class="center-980-pop">
-      <a href="#x" class="overlay-zvonokt" id="wind-zakaz-top"></a>  
-      <div class="popup-zvonokt">
-        <div class="wind-zakaz-top">
-          <p><span class="bold">ЗАПОЛНИТЕ ФОРМУ</span> И МЫ ВАМ<br>ОБЯЗАТЕЛЬНО ПЕРЕЗВОНИМ</p>
-         <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя*">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон*">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="ОТПРАВИТЬ">
-        </form>
-        </div>       
-      </div>
-    <a href="#x" class="fixed-overlay-zvonokt" id="wind-zakaz-fixed"></a>  
-      <div class="popup-zvonok-fixed">
-        <div class="wind-zakaz-fix">
-          <p><span class="bold">ЗАПОЛНИТЕ ФОРМУ</span> И МЫ ВАМ<br>ОБЯЗАТЕЛЬНО ПЕРЕЗВОНИМ</p>
-         <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя*">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон*">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="ОТПРАВИТЬ">
-        </form>
-        </div>       
-      </div>
- <a href="#x" class="overlay-i2" id="tx-i2"></a>  
-      <div class="popup-i2">
-        <div class="wind-i2">
-          <p style="font-size: 40px;">SEGWAY <span style="color: #ec4f52;">i2</p>
-          <p style="text-align: left;color:#fff;font-size: 20px;padding:20px;">Модель i2 самая универсальная модель среди электроскутеров. Этот скутер прост, легок и <br>компактен. Благодаря специальным колесам модель имеет большую продолжительность <br>пробега без подзарядки - 38 километров. Этого достаточно для многочасовых передвижений в <br>городских условиях и получение максимума удовольствия от прогулки, при этом экономя <br>свои силы и энергию.</p>
-          <div class="i2-info">
-            <p style="font-size: 30px;padding: 10px;">ВЕС ПОЛЬЗОВАТЕЛЯ И<br>ОГРАНИЧЕНИЯ НА ВЕС БАГАЖА</p>
-          <div class="info-left">            
-<p>Максимальная общая нагрузка<br>
-Минимальный вес пользователя<br>
-Максимальная нагрузка на руль</p>
-          </div>
-          <div class="info-right">
-            <p>118 кг<br>
-              45 кг<br>
-            4,5 кг</p>
-          </div>     
-            <br><p style="font-size: 30px;padding: 10px;">РАБОТА УСТРОЙСТВА</p>
-          <div class="info-left">
-<p>Максимальная скорость<br>
-Пробег (аккумулятор полностью заряжен)<br>
-Радиус поворота<br>
-Давление накачки шин</p>
-          </div>
-          <div class="info-right">
-            <p>
-              20 км/ч<br>
-              26-39 км<br>
-              Нулевой<br>
-              1,05 бар
-            </p>
-          </div>                         
-            <br><p style="font-size: 30px;padding: 10px;">РАЗМЕРЫ</p>
-          <div class="info-left">
-<p>Вес устройства без аккумуляторов<br>
-Клиренс (без загрузки)<br>
-Длина и ширина устройства<br>
-Высота руля от коврика<br>
-Высота руля от земли (без загрузки)<br>
-Высота модуля питания (без загрузки)<br>
-Диаметр шин<br>
-Тип шин</p>
-          </div>
-          <div class="info-right">
-            <p>37 кг<br>
-              8,5 см<br>
-              65x63 см<br>
-              97-109 см<br>
-              117-130 см<br>
-              20 см <br>
-              9 дюйм / 48,3 см<br>
-              Стандартные</p>
-          </div>                    
-        </div>       
-      </div>   
-      </div>   
-    <a href="#x" class="overlay-x2" id="tx-x2"></a>  
-      <div class="popup-x2">
-                <div class="wind-x2">
-          <p style="font-size: 40px;">SEGWAY <span style="color: #ec4f52;">X2</p>
-          <p style="text-align: left;color:#fff;font-size: 20px;padding:20px;">Модель x2 настоящий "внедорожник" семейства Segway! Если вы любите экстремальную езду вне <br>черты города, тогда скутер Segway x2 создан специально для вас. Он предназначен для езды <br>по пересеченной местности. Откройте для себя мощный скутер, возможности которого <br>сравнимы с квадроциклом.</p>
-          <div class="i2-info">
-            <p style="font-size: 30px;padding: 10px;">ВЕС ПОЛЬЗОВАТЕЛЯ И<br>ОГРАНИЧЕНИЯ НА ВЕС БАГАЖА</p>
-          <div class="info-left">            
-<p>Максимальная общая нагрузка<br>
-Минимальный вес пользователя<br>
-Максимальная нагрузка на руль</p>
-          </div>
-          <div class="info-right">
-            <p>118 кг<br>
-              45 кг<br>
-            4,5 кг</p>
-          </div>     
-            <br><p style="font-size: 30px;padding: 10px;">РАБОТА УСТРОЙСТВА</p>
-          <div class="info-left">
-<p>Максимальная скорость<br>
-Пробег (аккумулятор полностью заряжен)<br>
-Радиус поворота<br>
-Давление накачки шин</p>
-          </div>
-          <div class="info-right">
-            <p>
-              20 км/ч<br>
-              14-19 км<br>
-              Нулевой<br>
-              0,28 бар
-            </p>
-          </div>                         
-            <br><p style="font-size: 30px;padding: 10px;">РАЗМЕРЫ</p>
-          <div class="info-left">
-<p>Вес устройства без аккумуляторов<br>
-Клиренс (без загрузки)<br>
-Длина и ширина устройства<br>
-Высота руля от коврика<br>
-Высота руля от земли (без загрузки)<br>
-Высота модуля питания (без загрузки)<br>
-Диаметр шин<br>
-Тип шин</p>
-          </div>
-          <div class="info-right">
-            <p>44 кг<br>
-              11,2 см<br>
-              67x84 см<br>
-              97-109 см<br>
-              119-132 см<br>
-              22,9 см<br>
-              1 дюйм / 53,3<br>
-              Вездеходные</p>
-          </div>                    
-        </div>       
-      </div>
-      </div>
+<body>
+<section id="top">
+	<div class="container">
+		<div class="row align-center">
+		    <div class="col-md-auto">
+		        <a class="logo" href="./"><img src="assets/images/logo.png" alt=""></a>
+		    </div>
+			<div class="col-md-5">
+				<ul class="nav-top">
+					<li><a href="blog/">Блог</a></li>
+					<li><a href="dostavka.html">Доставка</a></li>
+					<li><a href="opla.html">Оплата</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 text-right">
+			<div class="top-phone">
+				<a href="tel:">8 800 55 35 35</a><br>
+				<span>Бесплатный звонок по России</span>
+			</div>
+		</div>
+		</div>
+	</div>
+</section>
+<div class="container">
+	<nav class="navbar navbar-expand-lg align-center">
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto"><li class="first"><a href="catalog/tolokaryi/" >Толокары<sup>21</sup></a></li><li><a href="catalog/elektromobili/" >Электромобили<sup>86</sup></a></li><li><a href="catalog/velosipedyi.html" >Велосипеды<sup>0</sup></a></li><li><a href="catalog/giroskuteryi.html" >Гироскутеры<sup>0</sup></a></li><li><a href="catalog/tyubingi.html" >Тюбинги<sup>0</sup></a></li><li class="last"><a href="catalog/sanki.html" >Санки<sup>0</sup></a></li></ul>
+		</div>
+		<div class="basket">
+		    <a class="pure-cart pure-button cart-button" style="display: none;"> 
+		      <img src="assets/images/icons/basket.svg" alt="" class="svg">
+		      <span class="cart-button-quantity">0</span>
+		      <span class="cart-button-label">items</span>
+		    </a>
+		</div>
+	</nav>
+</div>
+<section id="header-index">
+	<div class="container">
+		<div class="header-index-slider slider">
+			<div class="item">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="left">
+							<h1 class="header-title">Электромобили для Вашего ребёнка</h1>
+							<p class="gray">Удобный, надежный и безопасный трехколесный велосипед с родительской ручкой, выполненный в оригинальном концептуальном стиле.</p>
+							<a href="catalog/elektromobili/" class="btn big">Посмотреть</a>
+						</div>
+					</div>
+					<div class="col-md-7 order-md-1">
+						<div class="right">
+							<div class="price">
+								<span class="old-price">9200</span><br>
+								<span>от</span> 8500<span>руб</span>
+							</div>
+							<img src="assets/images/index/header/1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="left">
+							<h1 class="header-title">Велосипеды для Вашего ребёнка</h1>
+							<p class="gray">Удобный, надежный и безопасный трехколесный велосипед с родительской ручкой, выполненный в оригинальном концептуальном стиле.</p>
+							<a href="catalog/velosipedyi.html" class="btn big">Посмотреть</a>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="right">
+							<div class="price">
+								<span class="old-price">9200</span><br>
+								<span>от</span> 8500<span>руб</span>
+							</div>
+							<img src="assets/images/index/header/2.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<div class="row">
+					<div class="col-md-5">
+						<div class="left">
+							<h1 class="header-title">Велосипеды для Вашего ребёнка</h1>
+							<p class="gray">Удобный, надежный и безопасный трехколесный велосипед с родительской ручкой, выполненный в оригинальном концептуальном стиле.</p>
+							<a href="catalog/velosipedyi.html" class="btn big">Посмотреть</a>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<div class="right">
+							<div class="price">
+								<span class="old-price">9200</span><br>
+								<span>от</span> 8500<span>руб</span>
+							</div>
+							<img src="assets/images/index/header/1.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="bg2">
+<section id="sale-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xl-3">
+				<div class="title">
+					<div class="icon">
+						<img src="assets/images/icons/discount.svg" alt="" class="svg">
+					</div>
+					<div class="text">
+						<h2 class="h2">Отличная цена!</h2>
+						<p>Проверьте ленту скидок. Возможно, настал момент выгодной покупки.</p>
+						<div class="slider-nav">
+							<div class="slick-prev slick-arrow"></div>
+							<div class="slick-next slick-arrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-9">
+				<div class="main-slider slider">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="category-index">
+	<div class="container">
+		<div class="row row-box">
+			<div class="col-md-5">
+				<a href="catalog/elektromobili/">
+					<div class="box c1">
+						<div class="text">
+							<div class="box-title">Электромобили <br>для детей</div>
+							<span>124 товара</span>
+						</div>
+						<div class="img">
+							<img src="assets/images/index/category/1.jpg" alt="">
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-7">
+				<div class="row row-box">
+					<div class="col-md-6">
+						<a href="catalog/velosipedyi.html">
+							<div class="box c2">
+								<div class="text">
+									<div class="box-title">велосипеды детские <br>и взрослые</div>
+									<span>105 товаров</span>
+								</div>
+								<div class="img">
+									<img src="assets/images/index/category/2.jpg" alt="">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="catalog/tyubingi.html">
+							<div class="box c3">
+								<div class="text">
+									<div class="box-title">Тюбинги</div>
+									<span>38 товаров</span>
+								</div>
+								<div class="img">
+									<img src="assets/images/index/category/3.jpg" alt="">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="catalog/giroskuteryi.html">
+							<div class="box c4">
+								<div class="text">
+									<div class="box-title">Гироскутеры</div>
+									<span>80 товаров</span>
+								</div>
+								<div class="img">
+									<img src="assets/images/index/category/4.jpg" alt="">
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="catalog/sanki.html">
+							<div class="box c5">
+								<div class="text">
+									<div class="box-title">Санки <img src="assets/images/icons/smile.png" alt=""></div>
+									<span>17 товаров</span>
+								</div>
+								<div class="img">
+									<img src="assets/images/index/category/5.jpg" alt="">
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="news-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xl-4">
+				<div class="title">
+					<div class="icon">
+						<img src="assets/images/icons/media.svg" alt="" class="svg">
+					</div>
+					<div class="text">
+						<h2 class="h2">Последние новости</h2>
+						<p>Проверьте ленту скидок. Возможно, настал момент выгодной покупки.</p>
+						
+						<a href="blog/" class="btn">Посмотреть все</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-8">
+				<div class="row">
+					<div class="col-md-6">
+    <div class="news-box">
+    	<div class="date">19.07.2018</div>
+    	<h3 class="h3">Летняя тотальная распродажа</h3>
+    	<p class="introtext">Большая весенняя распродажа! Хотите наполнить жизнь яркими красками, вдохнуть свежий весенний ветер и встретить творческую весну в полную силу?</p>
+    	<a href="blog/letnyaya-totalnaya-rasprodazha2.html">Читать далее…</a>
     </div>
-<!-- ////////////////////////// ШАПКА-ШАПКА-ШАПКА \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
-  <div class="rel-pos">
-  <div class="header">    
-    <div class="header-top">
-      <img class="header-pointer" alt="SEGWAY INC" src="img/pointer.png" >
-      <p>РОССИЙСКОЕ ПРЕДСТАВИТЕЛЬСТВО<br>ОФИЦИАЛЬНОГО ДИЛЕРА <span class="bold">SEGWAY INC</span><br><span class="bold">ДОСТАВКА ПО РОССИИ</span> БЕСПЛАТНО</p>
-      <a href="" class="header-logo"><img alt="SEGWAY INC" src="img/logo.png" ></a>
-      <div class="header-telephone"><p><span>ЗВОНОК БЕСПЛАТНЫЙ</span><br><img alt="SEGWAY INC" src="img/telephone.png" ><span class="number">8 800 000 00 00</span><br><a href="#wind-zakaz-top">ЗАКАЗАТЬ ЗВОНОК</a></p></div>
+</div>
+<div class="col-md-6">
+    <div class="news-box">
+    	<div class="date">19.07.2018</div>
+    	<h3 class="h3">Летняя тотальная распродажа</h3>
+    	<p class="introtext">Большая весенняя распродажа! Хотите наполнить жизнь яркими красками, вдохнуть свежий весенний ветер и встретить творческую весну в полную силу?</p>
+    	<a href="blog/vesennya-totalnaya-rasprodazha.html">Читать далее…</a>
     </div>
-    <div class="header-bottom">   
-      <h1>ИСПЫТАЙТЕ ВСЮ ПИКАНТНОСТЬ ЕЗДЫ НА  <span class="bold">SEGWAY</span><br>И  <span class="bold">ВАМ НЕ ЗАХОЧЕТСЯ С НИМ РАССТАВАТЬСЯ</span></h1>
-      <div class="x2">
-        <div class="x2-text">
-          <p>SEGWAY X2</p>
-          <p><span>300 000p</span></p>
-          <hr>
-          <a href="#tx-x2">ТЕХНИЧЕСКИЕ<br>ХАРАКТЕРИСТИКИ</a>
-        </div>
-      </div>  
-      <div class="i2">
-          <div class="i2-text">
-          <p>SEGWAY i2</p>
-          <p><span>290 000p</span></p>
-          <hr>
-          <a href="#tx-i2">ТЕХНИЧЕСКИЕ<br>ХАРАКТЕРИСТИКИ</a>
-        </div>
-      </div>
-    </div>
-  </div>
-<!-- ///////////////////////// ОСНОВНОЙ КОНТЕНТ \\\\\\\\\\\\\\\\\\\\\\\-->
-  <div class="asphalt">
-  <div class="center-980">
-    <!-- ФОРМА ФОРМА ФОРМА -->
-    <div class="my-form">      
-      <p><span class="bold">ЗАКАЖИТЕ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ<br>SEGWAY</span> И ПОЛУЧИТЕ <span class="bold"><span class="cool-red">ВЫГОДУ</span></span></p>
-      <div class="feedback">                
-        <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="Заказать">
-        </form>        
-        </div>
-    </div>  
-    <div>
-    <div class="guarntie-block">
-      <img alt="SEGWAY INC" src="img/guar1.png" ><br>
-      <p>ГАРАНТИЯ<br>КАЧЕСТВА</p>
-    </div>
-    <div class="guarntie-block">
-            <img alt="SEGWAY INC" src="img/guar2.png" ><br>
-      <p>БЕЗОПАСНАЯ<br>ПОКУПКА</p>
-    </div>
-    <div class="guarntie-block">
-            <img alt="SEGWAY INC" src="img/guar3.png"><br>
-      <p style="font-size: 18px;padding-top: 10px;">ГАРАНТИЯ ВОЗВРАТА ДЕНЕГ<br>ЕСЛИ ТОВАР<br>НЕ ПОНРАВИЛСЯ</p>
-    </div>
-    </div>    
-    <p class="zaholovok"><span class="bold">SEGWAY</span> НУЖЕН ВАМ</p>    
-    <div class="you-need-segway">
-      <p><img alt="SEGWAY INC" src="img/you-need-segway1.png">ДЛЯ ПОВСЕДНЕВНОЙ ЖИЗНИ</p>
-      <p><img alt="SEGWAY INC" src="img/you-need-segway2.png">ДЛЯ БИЗНЕСА</p>
-      <p><img alt="SEGWAY INC" src="img/you-need-segway3.png">ДЛЯ АКТИВНОГО ОТДЫХА</p>
-      <p><img alt="SEGWAY INC" src="img/you-need-segway4.png">ДЛЯ ГОЛЬФА</p>
-      <p><img alt="SEGWAY INC" src="img/you-need-segway5.png">ДЛЯ ОХРАНЫ</p>
-    </div>
-    <div>
-    <div class="problems">
-      <p><span class="bold">ПРОБЛЕМЫ</span> С КОТОРЫМИ<br>СТАЛКИВАЮТСЯ 90%<br>ПОКУПАТЕЛЕЙ</p>
-    </div>
-    <div class="problems">
-      <p>ПОЧЕМУ<br><span class="bold">СТОИТ КУПИТЬ</span> У НАС</p>
-    </div>
-    </div>
-    <div class="no">
-      <p><img alt="SEGWAY INC" src="img/no.png">ПОДДЕЛКА</p>
-      <p><img alt="SEGWAY INC" src="img/no.png">ОБМАН</p>
-      <p><img alt="SEGWAY INC" src="img/no.png">ДЛИТЕЛЬНЫЕ СРОКИ ДОСТАВКИ</p>
-      <p><img alt="SEGWAY INC" src="img/no.png">ПОТЕРЯ ТОВАРА</p>
-      <p><img alt="SEGWAY INC" src="img/no.png">ОТСТУТСТВИЕ ГАРАНТИИ НА ТОВАР</p>
-    </div>
-    <div class="yes">
-      <p><img alt="SEGWAY INC" src="img/yes.png">ГАРАНТИЯ КАЧЕСТВА</p>
-      <p><img alt="SEGWAY INC" src="img/yes.png">ТЕХНИЧЕСКАЯ ГАРАНТИЯ</p>
-      <p><img alt="SEGWAY INC" src="img/yes.png">БЕСПЛАТНАЯ ДОСТАВКА ПО РОССИИ</p>
-      <p><img alt="SEGWAY INC" src="img/yes.png">СКИДКИ</p>
-      <p><img alt="SEGWAY INC" src="img/yes.png">ВЫГОДНЫЕ УСЛОВИЯ</p>
-    </div>
-     <!-- ФОРМА ФОРМА ФОРМА -->
-    <div class="my-form">      
-      <p><span class="bold">ЗАКАЖИТЕ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ<br>SEGWAY</span> И ПОЛУЧИТЕ <span class="bold"><span class="cool-red">ВЫГОДУ</span></span></p>
-      <div class="feedback">
-        <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="Отправить">
-        </form>        
-      </div>
-    </div>
-    <p class="zaholovok">ДОПОЛНИТЕЛЬНЫЕ АКCЕССУАРЫ<br><span class="bold">SEGWAY</span></p>
-    <div>
-    <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar1.png">
-      <p>ПОДНОЖКА СТОЯНОЧНАЯ<br>ДЛЯ Х2</p>      
-      <p class="cena">53$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar2.png">
-      <p>ДЕРЖАТЕЛЬ ДЛЯ<br>АКСЕССУАРОВ</p>      
-      <p class="cena">62$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar3.png">
-      <p>ЗАЩИТНАЯ ПАНЕЛЬ ДЛЯ<br>INFO KEY</p>      
- <p class="cena">14$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar4.png">
-      <p>ЗАМОК ТРОСОВЫЙ<br>ПРОТИВОУГОННЫЙ</p>      
-      <p class="cena">95$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar5.png">
-      <p>КОФР SEGWAY БОКОВОЙ<br>ТВЕРДОСТЕННЫЙ</p>     
-      <p class="cena">320$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar6.png">
-      <p>ФОНАРЬ ЗАДНЕГО СВЕТА<br>СВЕТОДИОДНЫЙ</p>      
-      <p class="cena">20$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar7.png">
-      <p>РАМА БАГАЖНИКА<br>ДЛЯ Х2 (2 ШТУКИ)</p>      
-      <p class="cena">180$</p>
-    </div>
-        <div class="aksesuar">
-      <img alt="SEGWAY INC" src="img/aksesuar8.png">
-      <p>СУМКА БАГАЖНАЯ<br>НА РУЛЬ</p>      
-      <p class="cena">156$</p>
-    </div>
-    </div>
-         <!-- ФОРМА ФОРМА ФОРМА -->
-    <div class="my-form">      
-      <p><span class="bold">ЗАКАЖИТЕ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ<br>SEGWAY</span> И ПОЛУЧИТЕ <span class="bold"><span class="cool-red">ВЫГОДУ</span></span></p>
-      <div class="feedback">                
-        <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="Отправить">
-        </form>        
-      </div>
-    </div>
-  </div>
-  <div class="videos">
-    <div class="center-980">
-      <div class="movie">
-        <a href="#mov1"><img alt="SEGWAY INC" src="img/video.jpg"></a>
-        <a href="index.php" class="overlay" id="mov1"></a>  
-        <div class="popup">          
-          <div class="my-wind">
-            <iframe width="420" height="315" src="//www.youtube.com/embed/YUySkPkSoFA" frameborder="0" allowfullscreen></iframe>
-          </div>       
-        </div>     
-      </div>
-      <div class="movie">
-        <a href="#mov2"><img alt="SEGWAY INC" src="img/video1.jpg"></a>
-        <a href="index.php" class="overlay" id="mov2"></a>  
-        <div class="popup">          
-          <div class="my-wind">
-            <iframe width="420" height="315" src="//www.youtube.com/embed/aGjIg6EqFJk" frameborder="0" allowfullscreen></iframe>
-          </div>       
-        </div>      
-      </div>
-      <div class="movie">
-        <a href="#mov3"><img alt="SEGWAY INC" src="img/video2.jpg"></a>
-        <a href="index.php" class="overlay" id="mov3"></a>  
-        <div class="popup">          
-          <div class="my-wind">
-            <iframe width="560" height="315" src="//www.youtube.com/embed/2CnmQemOnOk" frameborder="0" allowfullscreen></iframe>
-          </div>       
-        </div>   
-      </div>      
-    </div>
-  </div>
-  <div class="center-980">
-    <div class="reviws-bg">
-      <div class="reviws">
-        <p class="zaholovok"><span class="bold">ОТЗЫВЫ НАШИХ КЛИЕНТОВ</span></p>
-        <div id="container">
-    <pre><div id="slides">
- <div>
-    <img src="img/reviw-bg.png" alt="">
- </div>
- <div>
-    <img src="img/reviw-bg1.png" alt="">
- </div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="last-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xl-3">
+				<div class="title">
+					<div class="icon">
+						<img src="assets/images/icons/discount.svg" alt="" class="svg">
+					</div>
+					<div class="text">
+						<h2 class="h2">Новинки каталога</h2>
+						<p>Обратите внимание на последние поступления</p>
+						<div class="slider-nav">
+							<div class="slick-prev slick-arrow"></div>
+							<div class="slick-next slick-arrow"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-9">
+				<div class="main-slider slider">
+					<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/mercedes-benz-gl63-a999aa-s-distanczionnyim-upravleniem-44.html">
+			<img src="/assets/cache_image/catalog/127/DSC08753_270x200_985.jpg" alt="Mercedes-Benz GL63 A999AA с дистанционным управлением (4*4)"/>
+		</a>
+		<p class="cart-box-title">Mercedes-Benz GL63 A999AA с дистанционным управлением (4*4)</p>
+		<div class="price">65 000 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/mercedes-benz-gl63-a999aa-s-distanczionnyim-upravleniem-44.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/new-ford-ranger-4wd-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/126/DSC05282_270x200_985.jpg" alt="NEW FORD RANGER 4WD (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный. Двухместный"/>
+		</a>
+		<p class="cart-box-title">NEW FORD RANGER 4WD (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный. Двухместный</p>
+		<div class="price">33 550 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/new-ford-ranger-4wd-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/bmw-m333mm-s-distanczionnyim-upravleniem-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/125/web_M333MM_001_270x200_985.jpg" alt="BMW M333MM с дистанционным управлением Двухместный"/>
+		</a>
+		<p class="cart-box-title">BMW M333MM с дистанционным управлением Двухместный</p>
+		<div class="price">29 150 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/bmw-m333mm-s-distanczionnyim-upravleniem-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/jeep-m777mm-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/124/DSC02051_270x200_985.jpg" alt="JEEP M777MM (4*4) с дистанционным управлением  Полноприводный. Двухместный."/>
+		</a>
+		<p class="cart-box-title">JEEP M777MM (4*4) с дистанционным управлением  Полноприводный. Двухместный.</p>
+		<div class="price">29 150 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/jeep-m777mm-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/volkswagen-amarok-m999mm-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.html">
+			<img src="/assets/cache_image/catalog/123/DSC03649_270x200_985.jpg" alt="VOLKSWAGEN AMAROK M999MM (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный"/>
+		</a>
+		<p class="cart-box-title">VOLKSWAGEN AMAROK M999MM (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный</p>
+		<div class="price">27 800 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/volkswagen-amarok-m999mm-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/buggy-t009tt-spider-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/122/540695924_270x200_985.jpg" alt="BUGGY T009TT-SPIDER (4*4) с дистанционным управлением  Полноприводный. Двухместный."/>
+		</a>
+		<p class="cart-box-title">BUGGY T009TT-SPIDER (4*4) с дистанционным управлением  Полноприводный. Двухместный.</p>
+		<div class="price">30 500 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/buggy-t009tt-spider-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/buggy-t009tt-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/121/DSC_4581_270x200_985.jpg" alt="BUGGY T009TT (4*4) с дистанционным управлением  Полноприводный. Двухместный."/>
+		</a>
+		<p class="cart-box-title">BUGGY T009TT (4*4) с дистанционным управлением  Полноприводный. Двухместный.</p>
+		<div class="price">27 500 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/buggy-t009tt-44-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/mercedes-benz-gls63-4wd-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/119/DSC06263_02_270x200_985.jpg" alt="MERCEDES-BENZ GLS63 4WD (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный. Двухместный."/>
+		</a>
+		<p class="cart-box-title">MERCEDES-BENZ GLS63 4WD (ЛИЦЕНЗИОННАЯ МОДЕЛЬ) с дистанционным управлением  Полноприводный. Двухместный.</p>
+		<div class="price">31 000 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/mercedes-benz-gls63-4wd-liczenzionnaya-model-s-distanczionnyim-upravleniem-polnoprivodnyij.-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/toyota-tundra-mini-jj2266-liczenzionnaya-model-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/119/DSC06263_02_270x200_985.jpg" alt="TOYOTA TUNDRA MINI JJ2266   (ЛИЦЕНЗИОННАЯ МОДЕЛЬ)  Двухместный"/>
+		</a>
+		<p class="cart-box-title">TOYOTA TUNDRA MINI JJ2266   (ЛИЦЕНЗИОННАЯ МОДЕЛЬ)  Двухместный</p>
+		<div class="price">24 000 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/toyota-tundra-mini-jj2266-liczenzionnaya-model-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/jeep-wrangler-o999oo-44-polnoprivodnyij.html">
+			<img src="/assets/cache_image/catalog/118/DSC03151_270x200_985.jpg" alt="JEEP WRANGLER O999OO 4*4 Полноприводный"/>
+		</a>
+		<p class="cart-box-title">JEEP WRANGLER O999OO 4*4 Полноприводный</p>
+		<div class="price">24 000 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/jeep-wrangler-o999oo-44-polnoprivodnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/mers-limuzin-a555aa-s-distanczionnyim-upravleniem-chetyirexdvernyij-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/117/DSC00517copy_270x200_985.jpg" alt="Mers ЛИМУЗИН A555AA с дистанционным управлением  (ЧЕТЫРЕХДВЕРНЫЙ) Двухместный"/>
+		</a>
+		<p class="cart-box-title">Mers ЛИМУЗИН A555AA с дистанционным управлением  (ЧЕТЫРЕХДВЕРНЫЙ) Двухместный</p>
+		<div class="price">23 300 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/mers-limuzin-a555aa-s-distanczionnyim-upravleniem-chetyirexdvernyij-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+<div class="cart-box">
+	<div class="img">
+		<a href="catalog/elektromobili/minicooper-a222aa-s-distanczionnyim-upravleniem-dvuxmestnyij.html">
+			<img src="/assets/cache_image/catalog/116/DSC00431_270x200_985.jpg" alt="MiniCooper A222AA с дистанционным управлением  Двухместный"/>
+		</a>
+		<p class="cart-box-title">MiniCooper A222AA с дистанционным управлением  Двухместный</p>
+		<div class="price">21 400 <span>руб</span>  </div>
+		<a href="catalog/elektromobili/minicooper-a222aa-s-distanczionnyim-upravleniem-dvuxmestnyij.html" class="btn">Посмотреть</a>
+	</div>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="bnrs">
+	<div class="container">
+		<div class="row row-box">
+			<div class="col-md-6">
+				<a href="#">
+					<div class="bnr box yellow-bg">
+						<div class="text">
+							<div class="box-title">обменяй свой старый <br>электромобиль <br>на новый!</div>
+							<span>со скидкой до 30%</span>
+						</div>
+						<div class="img">
+							<img src="assets/images/index/category/6.png" alt="">
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-6">
+				<a href="#">
+					<div class="bnr box">
+						<div class="text">
+							<div class="box-title">Аренда <br>Электромобилей</div>
+							<span>Наиболее выгодные условия</span>
+						</div>
+						<div class="img">
+							<img src="assets/images/index/category/7.png" alt="">
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="brands-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xl-3">
+				<div class="title">
+					<div class="icon">
+						<img src="assets/images/icons/smile.svg" alt="" class="svg">
+					</div>
+					<div class="text">
+						<h2 class="h2">Бренды и торговые марки</h2>
+						<p>Представленные в каталоге производители</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-9">
+				<div class="main-slider slider">
+					<div class="item">
+						<img src="assets/images/index/brands/1.png" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/images/index/brands/1.png" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/images/index/brands/1.png" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/images/index/brands/1.png" alt="">
+					</div>
+					<div class="item">
+						<img src="assets/images/index/brands/1.png" alt="">
+					</div>
+				</div>
+				<div class="slider-nav mt-30">
+					<div class="slick-prev slick-arrow"></div>
+					<div class="slick-next slick-arrow"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+</div>
+<section id="steps-index">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-xl-4">
+				<div class="steps-box">
+					<div class="count">1</div>
+					<div class="icon">
+						<img src="assets/images/icons/shopping-cart.svg" alt="" class="svg">
+					</div>
+					<h3 class="h3">Оформите заказ на сайте</h3>
+					<p>Выберите понравившиеся предложения и добавьте предложения в корзину. Заполните данные получателя и способ доставки. Обязательно укажите контактный телефон.</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-4">
+				<div class="steps-box">
+					<div class="count">2</div>
+					<div class="icon">
+						<img src="assets/images/icons/call-center.svg" alt="" class="svg">
+					</div>
+					<h3 class="h3">Звонок сотрудника</h3>
+					<p>После получения заказа, наш сотрудник свяжется с вами. Согласует дату отправки заказа, способ доставки и время его выполнения. В зависимости от выбранного способа оплаты и доставки - уточняется стоимость и оплата.</p>
+				</div>
+			</div>
+			<div class="col-md-12 col-xl-4">
+				<div class="steps-box">
+					<div class="count">3</div>
+					<div class="icon">
+						<img src="assets/images/icons/place.svg" alt="" class="svg">
+					</div>
+					<h3 class="h3">Получение заказа</h3>
+					<p>Все наши товары проверяются перед отправкой. В зависимости от выбранного способа доставки и её сроков - получите свой заказ. При получении, обязательно проверьте комплектацию.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3 class="h3">Каталог товаров</h3>
+				<ul class="nav-footer"><li class="first"><a href="catalog/tolokaryi/" >Толокары</a></li><li><a href="catalog/elektromobili/" >Электромобили</a></li><li><a href="catalog/velosipedyi.html" >Велосипеды</a></li><li><a href="catalog/giroskuteryi.html" >Гироскутеры</a></li><li><a href="catalog/tyubingi.html" >Тюбинги</a></li><li class="last"><a href="catalog/sanki.html" >Санки</a></li></ul>
+			</div>
+			<div class="col-md-4">
+				<h3 class="h3">Информация</h3>
+				<ul class="nav-footer">
+					<li><a href="http://wheeleco.ru/">Главная</a></li>
+					<li><a href="blog/">Блог</a></li>
+					<li><a href="dostavka.html">Доставка</a></li>
+					<li><a href="opla.html">Оплата</a></li>
+					<li><a href="kont.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 text-right">
+				<div class="top-phone">
+					<a href="tel:">8 800 55 35 35</a><br>
+					<span>Бесплатный звонок по России</span>
+				</div>
+			</div>
+		</div>
+		<p class="copyrights small">Copyright © 2018 ООО «SiteName». Все права защищены. </p>
+	</div>
+</section>
+<!--оставить заявку-->
+<div class="modal fade modal-feedback" id="call" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
+			<h3>Оставьте заявку</h3>
+			<p class="text-center">И мы свяжемся с Вами в ближайшее время</p>
+			<form class="form-horizontal ajax-form" id="form-call">
+				<input type="hidden" name="tid" value="Заявка с сайта">
+				<div class="form-group for-name">
+					<input type="text" class="form-control" name="name" id="name" placeholder="Ваше имя">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="inpt1" name="inpt1" placeholder="Введите ваше имя">
+				</div>
+				<div class="form-group">
+					<input type="tel" class="form-control" id="number" name="number" placeholder="Введите номер телефона" required>
+				</div>
+				<button type="submit" class="btn small" id="send" name="submit">Отправить</button>
+				<div class="conf">
+					<label class="checkbox-btn text-center">
+						<input type="checkbox" name="accept" class="accept" required checked="checked"><div></div>
+						<p class="politics">Согласен с политикой конфиденциальности</p>
+					</label>
+				</div>		
+			</form>
+		</div>
+	</div>
+</div>
+<!-- Удачная отправка -->
+<div class="modal fade" id="success-form" tabindex="-1" aria-hidden="false">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal"></button>
+			<h3>Спасибо за Вашу заявку!</h3>
+			<p>Менеджер свяжется с Вами<br>в ближайшее рабочее время.</p>
+			<br>
+			<img src="assets/images/logo.png" alt="" class="m-auto">
+		</div>
+	</div>
+</div>
+<!-- Неудачная отправка -->
+<div class="modal fade" id="fail-form" tabindex="-1" aria-hidden="false">
+	<div class="modal-dialog modal-sm">
+		<div class="modal-content">
+			<button type="button" class="close" data-dismiss="modal"></button>
+			<h3>Заявка не отправлена</h3>
+			<p>Проверьте, пожалуйста, правильность<br>заполнения всех полей.</p>
+			<img src="assets/images/logo.png" alt="" class="m-auto">
+		</div>
+	</div>
+</div>
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="assets/template/js/bootstrap.bundle.min.js"></script>
+<script src="assets/template/js/feedback.js"></script>
+<link rel="stylesheet" href="assets/template/css/slick.min.css"/>
+<script src="assets/template/js/slick.min.js"></script>
+<link rel="stylesheet" type="text/css" href="assets/template/fancybox/fancybox.min.css"/>
+<script src="assets/template/fancybox/fancybox.min.js"></script>
+<script src="assets/template/js/script.js"></script>
+<!-- Loading cartjs. -->
+<script src="assets/template/cart/cart.js"></script>
+<script>
+  cartjs.initialize({
+    baseUrl       : 'http://velo.zsws.ru/',
+    emailOrdersTo : 'admin@zsws.ru',
+    language      : 'russian',
+    currency      : 'руб.'
+  })
+</script>
 
- <div>
-    <img src="img/reviw-bg2.png" alt="">
- </div>
-</div></pre>
-  </div>
-
-        <!-- <div class="reviw">
-          <div class="reviw-left">
-        <img alt="SEGWAY INC" src="img/reviw-avatar.png">
-        <p><span>Алексей Петров</span><br>34 года</p>
-      </div>
-      <div class="reviw-right">
-        <p>Заказал услугу в данной компании и был очень доволен результатом.
-Обслуживание на высшем уровне, качество выполненной работы впе-<br>чатляет. Сделали все быстро, каче-<br>ственно, а главное и для меня ока-<br>залось выгодно. А по окончании работ сделали подарок. В общем я очень доволен, всегда буду обраща-<br>ться в данную компанию, а ткже советовать всем своим друзьям и близким. </p>
-      </div>
-    </div>
-    <div class="reviw">
-      <div class="reviw-left">
-        <img alt="SEGWAY INC" src="img/reviw-avatar.png">
-        <p><span>Алексей Петров</span><br>34 года</p>
-      </div>
-      <div class="reviw-right">
-        <p>Заказал услугу в данной компании и был очень доволен результатом.
-Обслуживание на высшем уровне, качество выполненной работы впе-<br>чатляет. Сделали все быстро, каче-<br>ственно, а главное и для меня ока-<br>залось выгодно. А по окончании работ сделали подарок. В общем я очень доволен, всегда буду обраща-<br>ться в данную компанию, а ткже советовать всем своим друзьям и близким. </p>
-      </div>
-    </div> -->
-    </div>
-    <div class="how-wie-work">
-      <h1>КАК МЫ РАБОТАЕМ</h1>
-      <ul>
-        <li><img src="img/work/1.png"><br>1.Звоните или оставляете нам бесплатную заявку</li>
-        <li><img src="img/work/2.png"><br>2.Мы выделяем Вам персонального менеджера</li>
-        <li><img src="img/work/3.png"><br>3.Подбираем для Вас Segway (модель, цвет, аксессуары(по желанию)</li>
-        <li><img src="img/work/4.png"><br>4.Расчитываем стоимость </li>
-        <li><img src="img/work/5.png"><br>5.На следующий день высылаем Вам Segway</li>
-    </div>  
-    <div class="partners">  
-    <h1>С КЕМ МЫ РАБОТАЕМ</h1>    
-      <img style="border-radius: 10px;"src="img/partners.png">
-    </div>
-    <div class="photos">
-      <img alt="SEGWAY INC" src="img/photo1.png">
-      <img alt="SEGWAY INC" src="img/photo2.png">
-      <img alt="SEGWAY INC" src="img/photo3.png">
-      <img alt="SEGWAY INC" src="img/photo4.png">
-    </div>
-    <br>
-    <br>
-             <!-- ФОРМА ФОРМА ФОРМА -->
-    <div class="my-form">      
-      <p><span class="bold">ЗАКАЖИТЕ БЕСПЛАТНЫЙ ТЕСТ-ДРАЙВ<br>SEGWAY</span> И ПОЛУЧИТЕ <span class="bold"><span class="cool-red">ВЫГОДУ</span></span></p>
-      <div class="feedback">                
-        <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="">        
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="узнать">
-        </form>        
-      </div>
-    </div>
-    <p class="last-p" style="font-size: 25px;"><span class="bold"><span style="color: #ec4f52;">БЕСПЛАТНАЯ ДОСТАВКА</span> ПО РОССИИ</span><br>
-ТЕЛЕФОН 8 800 <span class="bold">000 00 00</span></p>
-   </div> 
-   </div>
-<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\ ПОДВАЛ-ПОДВАЛ ///////////////////////////// -->    
-<div class="footer">
-      <img class="header-pointer" alt="SEGWAY INC" src="img/pointer.png" >
-      <p>РОССИЙСКОЕ ПРЕДСТАВИТЕЛЬСТВО<br>ОФИЦИАЛЬНОГО ДИЛЕРА <span class="bold">SEGWAY INC</span><br><span class="bold">ДОСТАВКА ПО РОССИИ</span> БЕСПЛАТНО</p>
-      <a href="" class="header-logo"><img alt="SEGWAY INC" src="img/logo.png" ></a>
-      <div class="header-telephone"><p><span>ЗВОНОК БЕСПЛАТНЫЙ</span><br><img alt="SEGWAY INC" src="img/telephone.png"><span class="number">8 800 000 00 00</span><br><a href="#wind-zakaz-bot">ЗАКАЗАТЬ ЗВОНОК</a></p></div>      
-      <p class="copyright">&copy; 2013 Все права защищены</p>
-      <a href="#x" class="overlay-zvonokb" id="wind-zakaz-bot"></a>  
-      <div class="popup-zvonokb">
-        <div class="wind-zakaz-bot">
-          <p><span class="bold">ЗАПОЛНИТЕ ФОРМУ</span> И МЫ ВАМ<br>ОБЯЗАТЕЛЬНО ПЕРЕЗВОНИМ</p>
-         <form class="s_form" action="index1.php" method="POST">          
-          <input class="s_text nameinp sinp" type="text" name="name" placeholder="Введите ваше имя*">          
-          <input class="s_text phoneinp sinp" type="text" name="phone" placeholder="Введите ваш телефон*">
-          <input type="hidden"  name="email" class="email" value="none@none.ru">
-          <input type="hidden"  name="adress" class="email" value="none">          
-          <input type="hidden" value="C" name="button">
-          <input type="hidden"  name="comment" value="None">
-          <input class="s_submit" type="button" value="ОТПРАВИТЬ">
-        </form>
-        </div>       
-      </div>
-    </div>
-        <!-- ФИКСИРОВАНАЯ КНОПКА "ЗАКАЗАТЬ ЗВОНОК" -->
-    <div class="fixed-button">
-      <a href="#wind-zakaz-fixed">ЗАКАЗАТЬ ЗВОНОК</a>
-    </div>
-  </div> 
-    <script src="js/jquery.countdown.js"></script>
-
-  </body>
+</body>
 </html>
