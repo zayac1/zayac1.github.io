@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:s="http://jadedpixel.com/-/spec/shopify">
+  <id>https://theragun.com/collections/all.atom</id>
+  <link rel="alternate" type="text/html" href="https://theragun.com/collections/all"/>
+  <link rel="self" type="application/atom+xml" href="https://theragun.com/collections/g1accessories.atom"/>
+  <title>TheraGun</title>
+  <updated>2018-01-30T13:44:35-08:00</updated>
+  <author>
+    <name>TheraGun</name>
+  </author>
+  <entry>
+    <id>https://theragun.com/products/9419338049</id>
+    <published>2018-01-30T13:44:35-08:00</published>
+    <updated>2018-01-30T13:44:35-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/g1-battery"/>
+    <title>G1 LithiumTech Battery</title>
+    <s:type>G1 Battery</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/ONE_BATTERY_f4ed0a60-b4c1-4308-9987-bc1b0c151faf.jpg?v=1494621717" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 Battery<br />
+        <strong>Price: </strong>
+            50.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>Important: This battery is only usable with the G1 model, not the current G2PRO by TheraGun.</h3>
+<h3></h3>
+<h3>About G1 LithiumTech Battery</h3>
+<p>LithiumTech batteries feature electronic single-cell protection that shields each cell from overcharging. LithiumTech batteries can also be charged for up to three times more cycles than a standard Ni-Cd battery. They work without memory effect, produce minimal self-discharge and weigh up to 60 percent less for all day use. Battery charge will last approximately 20 minutes, depending on usage and pressure. It takes 15 minutes to reach a 75% charge and 30 minutes to fully charge. For a longer life, the battery should be removed from the power source when fully charged.</p>
+<p><br> <strong>Features/Specifications:</strong></p>
+<ul>
+<li>Item weight: 6.4 oz</li>
+<li>Product dimensions: 1.8” x 3.1”</li>
+<li>Series: LithiumTech</li>
+<li>Battery style: post</li>
+<li>Battery type: Li-Ion</li>
+<li>Recharge time: 30 min.</li>
+<li>Voltage: 12V</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Battery</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>LithiumTech</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9419338049</id>
+      <title>Default Title</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>42</s:sku>
+      <s:grams>181</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theragun.com/products/9419365377</id>
+    <published>2018-01-30T13:44:31-08:00</published>
+    <updated>2018-01-30T13:44:31-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/g1-battery-charger"/>
+    <title>G1 Battery Charger</title>
+    <s:type>G1 Battery Charger</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/CHARGER_d2439cf9-b68c-47ac-86c8-0e68cd63fccd.jpg?v=1494622023" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 Battery Charger<br />
+        <strong>Price: </strong>
+            50.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>About G1 Battery Charger</h3>
+<p>12-Volt LithiumTech Charger with USB Port for Charging Devices</p>
+<p>The 12V charger is used for charging the TheraGun's 12V battery. It has a quick charge time and allows the battery to reach a 75% charge in only 15 minutes, and a full charge in 30 minutes. A built-in USB port can charge small electronic devices, as well. The lighted on-board status indicators let you know where your battery is in the charge cycle and will turn green when the battery is fully charged. For a longer life, the battery should be removed when charging is complete.</p>
+<strong>Specifications</strong>
+<ul>
+<li>Item weight: 14.4 oz</li>
+<li>Product dimensions: 7.9” x 3.5” x 5.7”</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>Battery</s:tag>
+    <s:tag>Charger</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>LithiumTech</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9419365377</id>
+      <title>Default Title</title>
+      <s:price currency="USD">50.00</s:price>
+      <s:sku>41</s:sku>
+      <s:grams>408</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theragun.com/products/9418018113</id>
+    <published>2018-01-30T13:05:15-08:00</published>
+    <updated>2018-01-30T13:05:15-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/ampbits-tri"/>
+    <title>G1 AmpBITs: The Tri-Pack</title>
+    <s:type>G1 AmpBITs Large Ball, Small Ball &amp; Cone</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/THREE_PACK_GOOD_SIZED_47532649-e1ad-40ef-b22c-6dea6257dad9.jpg?v=1494607609" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 AmpBITs Large Ball, Small Ball &amp; Cone<br />
+        <strong>Price: </strong>
+            35.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>About AmpBITs: The Tri-Pack</h3>
+<p><span style="color: #3d85c6;"><strong>PLEASE NOTE: This product cannot be used with the new G2PRO™. It is compatible with the TheraGun G1 only.</strong></span></p>
+<p>This is the elite bundle of three AmpBITs to give you more versatility in using your TheraGun G1.</p>
+<p><strong>Large Ball</strong></p>
+<ul>
+<li>High density foam ball with steel shaft</li>
+<li>Item weight 2 oz</li>
+<li>Product dimensions 2.5” in diameter x 3.1” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul>
+<p><strong>Small Ball</strong></p>
+<ul>
+<li>High density foam ball with steel shaft</li>
+<li>Item weight 2 oz</li>
+<li>Product dimensions 1.5” in diameter x 2.1” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul>
+<strong>Cone</strong>
+<ul>
+<li>High density foam cone with steel shaft</li>
+<li>Item weight: 2 oz</li>
+<li>Product dimensions: 1.5” in diameter x 2.4” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>AmpBIT</s:tag>
+    <s:tag>Ball</s:tag>
+    <s:tag>Cone</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>Large</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9418018113</id>
+      <title>Default Title</title>
+      <s:price currency="USD">35.00</s:price>
+      <s:sku>TG-G1-TRI</s:sku>
+      <s:grams>170</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theragun.com/products/9417991873</id>
+    <published>2018-01-30T13:05:15-08:00</published>
+    <updated>2018-01-30T13:05:15-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/ampbit-ball"/>
+    <title>G1 AmpBIT: Small Ball</title>
+    <s:type>G1 AmpBIT Ball</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/SMALL_BALL_SIZED_6a831105-ae3d-441b-bd90-b819aef5d779.jpg?v=1494607338" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 AmpBIT Ball<br />
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>About AmpBIT Small Ball</h3>
+<p><span style="color: #3d85c6;"><strong>﻿PLEASE NOTE: This product cannot be used with the new G2PRO™. It is meant to be used with the TheraGun G1 only.</strong></span></p>
+<p><strong>Ball</strong></p>
+<ul>
+<li>High density foam ball with steel shaft</li>
+<li>Item weight 2oz</li>
+<li>Product Dimensions 1.5” in diameter x 2.1” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>AmpBIT</s:tag>
+    <s:tag>Ball</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9417991873</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku>45</s:sku>
+      <s:grams>59</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theragun.com/products/9417964417</id>
+    <published>2018-01-30T13:05:15-08:00</published>
+    <updated>2018-01-30T13:05:15-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/ampbit-cone"/>
+    <title>G1 AmpBIT: Cone</title>
+    <s:type>G1 AmpBIT Cone</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/CONE_SIZED_8922b473-1722-4637-9db4-263d496c4e29.jpg?v=1494607011" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 AmpBIT Cone<br />
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>About AmpBIT Cone</h3>
+<p><span style="color: #3d85c6;"><strong>﻿PLEASE NOTE: This product cannot be used with the new G2PRO™. It is meant to be used with the TheraGun G1 only.</strong></span></p>
+<p><strong>Cone</strong></p>
+<ul>
+<li>High density foam cone with steel shaft</li>
+<li>Item weight: 2oz</li>
+<li>Product dimensions 1.5” in diameter x 2.4” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>AmpBIT</s:tag>
+    <s:tag>Cone</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9417964417</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku>43</s:sku>
+      <s:grams>59</s:grams>
+    </s:variant>
+  </entry>
+  <entry>
+    <id>https://theragun.com/products/9417981953</id>
+    <published>2018-01-30T13:05:15-08:00</published>
+    <updated>2018-01-30T13:05:15-08:00</updated>
+    <link rel="alternate" type="text/html" href="https://theragun.com/products/ampbit-large-ball"/>
+    <title>G1 AmpBIT: Large Ball</title>
+    <s:type>G1 AmpBIT Large Ball</s:type>
+    <s:vendor>TheraGun</s:vendor>
+    <summary type="html">
+      <![CDATA[<table border="0">
+  <tr>
+    <td width="200"><img width="200" src="https://cdn.shopify.com/s/files/1/1211/9100/products/LARGE_BALL_c0773087-17eb-42ff-9848-bee18484c90f.jpg?v=1494607213" /></td>
+    <td valign="bottom">
+      <p>
+        <strong>Vendor: </strong>TheraGun<br />
+        <strong>Type: </strong>G1 AmpBIT Large Ball<br />
+        <strong>Price: </strong>
+            15.00
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"><h3>About AmpBIT Large Ball</h3>
+<p><span style="color: #3d85c6;"><strong>﻿PLEASE NOTE: This product cannot be used with the new G2PRO™. It is meant to be used with the TheraGun G1 only.</strong></span></p>
+<p><strong>Ball</strong></p>
+<ul>
+<li>High density foam ball with steel shaft</li>
+<li>Item weight 2oz</li>
+<li>Product Dimensions 2.5” in diameter x 3.1” tall</li>
+<li>Expected use time: approximately 90 days</li>
+</ul></td>
+  </tr>
+</table>
+]]>
+    </summary>
+    <s:tag>AmpBIT</s:tag>
+    <s:tag>Ball</s:tag>
+    <s:tag>G1</s:tag>
+    <s:tag>Large</s:tag>
+    <s:tag>TheraGun</s:tag>
+    <s:variant>
+      <id>https://theragun.com/products/9417981953</id>
+      <title>Default Title</title>
+      <s:price currency="USD">15.00</s:price>
+      <s:sku>44</s:sku>
+      <s:grams>59</s:grams>
+    </s:variant>
+  </entry>
+</feed>
